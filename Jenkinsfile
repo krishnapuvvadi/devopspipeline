@@ -16,6 +16,11 @@ stages {
         steps {
             echo 'testing step succeeded'
         }
-    }  
+    } 
+    stage (plan) {
+        steps {
+            echo 'planning done'
+        }
+    }   
 }
 }
