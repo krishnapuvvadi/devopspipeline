@@ -19,7 +19,7 @@ stages {
     } 
     stage (plan) {
         steps {
-            echo 'planning done'    
+            echo 'planning done"   
         }
     }
 }
