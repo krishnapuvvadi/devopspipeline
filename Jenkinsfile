@@ -19,7 +19,7 @@ stages {
     } 
     stage (plan) {
         steps {
-            echo 'planning done"   
+            echo 'planning done'
         }
     }
 }
@@ -28,7 +28,7 @@ stages {
             echo 'always to be executed once job completed'
         }
         failure {
-            echo 'only if job fails'
+            echo 'only if job fails"
         }
         success {
             echo 'only if job succeeded'
