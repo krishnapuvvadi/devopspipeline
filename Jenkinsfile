@@ -21,11 +21,11 @@ stages {
         steps {
             echo 'planning done'    
         }
-    }   
+    }
+}
+}
     post {
         always {
             echo 'always to be executed once job completed'
         }
-    }   
-}
-}
+    }
