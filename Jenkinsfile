@@ -20,7 +20,7 @@ stages {
     stage (plan) {
         steps {
             echo 'planning done';
-            bat 'ifconfig'
+            bat 'ipconfig'
         }
     }
 }
