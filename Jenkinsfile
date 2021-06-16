@@ -23,9 +23,9 @@ stages {
         }
     }
 }
-}
     post {
         always {
             echo 'always to be executed once job completed'
         }
     }
+}
