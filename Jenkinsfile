@@ -26,7 +26,7 @@ stages {
 }
     post {
         always {
-            echo 'always to be executed once job completed'
+            echo 'always to be executed once job is completed'
         }
         failure {
             echo 'only if job fails'
