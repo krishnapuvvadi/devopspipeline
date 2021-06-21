@@ -8,7 +8,7 @@ stages {
         }
      stage (deploy) {
          steps {
-             echo 'deploy step'		 
+             echo 'deploy step is done'		 
         }
     }
     stage (testing) {
