@@ -9,7 +9,7 @@ stages {
         }
      stage (deploy) {
          steps {
-             echo 'deploy step is completed'		 
+             echo 'deploy step is done'		 
         }
     }
     stage (testing) {
