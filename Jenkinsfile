@@ -13,7 +13,7 @@ stages {
     }
     stage (testing) {
         steps {
-            echo 'testing step'
+            echo 'testing step is completed'
         }
     }  
 }
