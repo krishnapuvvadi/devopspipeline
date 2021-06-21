@@ -1,3 +1,4 @@
+properties([pipelineTriggers([githubPush()])])
 pipeline {
 agent any
 stages {
@@ -8,7 +9,7 @@ stages {
         }
      stage (deploy) {
          steps {
-             echo 'deploy step is done'		 
+             echo 'deploy step is completed'		 
         }
     }
     stage (testing) {
