@@ -32,7 +32,7 @@ stages {
             echo 'only if job fails'
         }
         success {
-            echo 'only if job succeeded very well'
+            echo 'only if job successfully completed'
         }
     }
 }
