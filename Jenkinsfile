@@ -4,7 +4,7 @@ agent any
 stages {
     stage (build) {
         steps {
-            echo 'build processing step'
+            echo 'build processing step completed'
           }
         }
      stage (deploy) {
