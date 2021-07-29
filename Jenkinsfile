@@ -35,7 +35,7 @@ stages {
             echo 'only if job successfully completed'
         }
     }
-       always  {
+       always {
    cleanWs()
      }
    }
