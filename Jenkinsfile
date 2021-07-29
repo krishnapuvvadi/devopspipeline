@@ -26,7 +26,7 @@ stages {
 }
     post {
         always {
-            echo 'always to be executed once job is completed'
+            cleanWs()
         }
         failure {
             echo 'only if job fails'
@@ -35,7 +35,4 @@ stages {
             echo 'only if job successfully completed'
         }
     }
-       always {
-          cleanWs()
-     }
    }
