@@ -36,6 +36,6 @@ stages {
         }
     }
        always {
-   cleanWs()
+          cleanWs()
      }
    }
