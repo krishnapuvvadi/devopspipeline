@@ -1,4 +1,3 @@
-properties([pipelineTriggers([githubPush()])])
 pipeline {
 agent any
 stages {
@@ -20,7 +19,7 @@ stages {
     stage (plan) {
         steps {
             echo 'planning done';
-            bat 'ipconfig'
+            bat 'ifconfig'
         }
     }
 }
